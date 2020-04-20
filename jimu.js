@@ -2,8 +2,8 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj.data.accountInfo.vip = 1;
-obj.data.accountInfo.soulStatus = "force";
-obj.data.accountInfo.soul = "force";
+//obj.data.accountInfo.soulStatus = "force";
+//obj.data.accountInfo.soul = "force";
 //obj.data.accountInfo.vipRestDays = 365;
 //obj.data.accountInfo.likeMeExpiresTime = "2021-04-07 19:02:24";
 //obj.data.accountInfo.vipExpiredDays = 0;
