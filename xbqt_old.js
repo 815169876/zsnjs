@@ -10,7 +10,7 @@ sign()
 function sign() {
   const url = { url: signurlVal, headers: JSON.parse(signheaderVal) }
   url.body = 'pointid=b4edc394-b41e-4342-9d8e-36fc6bd216d9&inorout=2&lat=38.9102350385927&lng=121.61504275925934&location=%E8%BE%BD%E5%AE%81%E7%9C%81%E5%A4%A7%E8%BF%9E%E5%B8%82%E8%A5%BF%E5%B2%97%E5%8C%BA%E6%B0%91%E8%BF%90%E8%A1%9745%E5%8F%B7&ips=&cip=&deviceid=67053f61bfc847346ccc4ec214c57b04'
-  url.headers['Referer'] = 'http://sytlj.saasta.net:10000/Management/MobileRegister/MobileRegisterPage?code=WgmhlrVlVeYQBRxqAAq2PoAjIyfwmdeBoiGm5uG4usk&state=123456'
+  url.headers['Referer'] = 'http://sytlj.saasta.net:10000/Management/MobileRegister/MobileRegisterPage?code=u8vbX_DG-SLes6x9h4-iVBGp-HkeqldybRtiq7Qb9K0&state=123456'
   chavy.post(url, (error, response, data) => {
     chavy.log(`${cookieName}, data: ${data}`)
     let subTitle = ''
