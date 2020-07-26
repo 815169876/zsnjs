@@ -181,9 +181,9 @@ GitHub: Neurogram-R
 */
 
 const accounts = [
-    ["泡面", "https://www.cordcloud.co/auth/login", "815169876@qq.com", "13700065306"],
-    ["布丁", "https://pud.kaolay.com/assets/auth/login.js", "815169876@qq.com", "13700065306"],
-    ["CCCAT", "https://cccat.io/user/login.php", "815169876@qq.com", "13700065306"]
+    ["泡面", "https://www.cordcloud.co/auth/login", "@qq.com", "13700065306"],
+    ["布丁", "https://pud.kaolay.com/assets/auth/login.js", "qq.com", "13700065306"],
+    ["CCCAT", "https://cccat.io/user/login.php", "qq.com", "13700065306"]
 ]
 
 async function launch() {
