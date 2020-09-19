@@ -5,8 +5,8 @@
 ;host-suffix, googleapis.com, proxy
 
 #检测
-host, www.umeng.com,DIRECT
-host, adview.cn,DIRECT
+host, www.umeng.com,direct
+host, adview.cn,direct
 #底栏
 host, googleads.g.doubleclick.net,reject
 host, www.19831110.com,reject
